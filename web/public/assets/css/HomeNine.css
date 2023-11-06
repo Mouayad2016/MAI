@@ -1,0 +1,175 @@
+#hero-div {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.gradient-backgroud {
+  background: linear-gradient(90deg, #ffffff42 16%, #67a8ff 100%);
+}
+
+.bg-main-pink {
+  background-color: #fbebfc;
+}
+
+.bg-main-yellow {
+  background: linear-gradient(
+    166deg,
+    #feffbc4b 85%,
+    #fdff834b 90%,
+    #eeabff42 100%
+  );
+}
+
+.bg-main-black {
+  background-color: #000000;
+}
+
+.footer-backgroud {
+  background: black;
+  /* background: linear-gradient(135deg, #eeabff 0%, #f4f5f8 100%); */
+}
+
+.footer2-backgroud {
+  background: #67a8ff;
+  /* linear-gradient(135deg, #eeabff 0%, #f4f5f8 100%); */
+}
+
+.gradient-backgroud-switched {
+  background: linear-gradient(135deg, #fdff834b 0%, #eeabff42 100%);
+}
+
+/* !Here the what we do section  */
+
+.home-section {
+  padding: 120px 60px;
+  border-radius: 50px;
+  background: #eadefe28;
+  box-shadow: inset 20px 20px 60px #c9cdd9, inset -20px -20px 60px #ffffff;
+  margin: 40px;
+  overflow: hidden;
+  position: relative;
+  color: #000;
+}
+
+.home-section::before {
+  display: none;
+}
+
+.home-section-signature {
+  font-family: 'Courier New', Courier, monospace;
+  /* Set the font family */
+  font-size: 18px;
+  /* Set the font size */
+  font-weight: bold;
+  /* Make it bold */
+  text-align: right;
+  /* Align it to the right */
+  margin-top: 20px;
+  /* Add margin at the top */
+  color: #c6a2ff;
+  /* Set the text color */
+  text-decoration: underline;
+  /* Underline the text */
+}
+
+.home-section-date {
+  font-family: 'Courier New', Courier, monospace;
+  /* Set the font family */
+  font-size: 18px;
+  /* Set the font size */
+  font-weight: bold;
+  /* Make it bold */
+  text-align: right;
+  /* Align it to the right */
+  margin-top: 0px;
+  /* Add margin at the top */
+  color: #c6a2ff;
+  /* Set the text color */
+  text-decoration: underline;
+  /* Underline the text */
+}
+
+.home-section-title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  animation: fadeInUp 1s both;
+}
+
+.home-section-paragraph {
+  font-size: 20px;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  opacity: 0.9;
+  animation: fadeInUp 1s both 0.5s;
+}
+
+/* !NO hover on element on mobile */
+
+@media (max-width: 767px) {
+  .offcanvas-body .main-menu li a.nav-link:hover {
+    margin: 0;
+  }
+  .main-menu li a.nav-link:hover,
+  .action-btns a.btn-link:hover,
+  .navbar-dark.sticky-header.affix .main-menu li a.nav-link:hover,
+  .navbar-dark.sticky-header.affix .action-btns a.btn-link:hover {
+    /* Reset styles to defaults or whatever you want */
+    color: inherit;
+    font-weight: normal;
+    box-shadow: none;
+    opacity: 1;
+    border-radius: 0;
+    background-color: inherit;
+    transform: scale(1);
+    transition: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .home-section {
+    padding: 60px 20px;
+    margin: 20px;
+  }
+  .home-section-title {
+    font-size: 36px;
+  }
+  .home-section-paragraph {
+    font-size: 18px;
+  }
+}
+
+/* !end */
+
+@media (max-width: 990px) {
+  /* Adjust the breakpoint as needed */
+  #hero-div {
+    display: none;
+  }
+}
+
+.row-home-main {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-card {
+  margin: 16px;
+}

@@ -1,0 +1,15 @@
+/* .service-tabs {
+  padding: 20px;
+  height: 100px;
+  background-color: black;
+} */
+
+.img-fluid .logo-color img {
+  background-color: aqua;
+  color: black;
+  padding: 200px;
+}
+
+.contact-promo-info mb-4 {
+  background-color: black;
+}
