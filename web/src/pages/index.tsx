@@ -13,12 +13,12 @@ const Home = () => {
   return (
     <Layout>
       <PageMeta
-        title="MouayadAI: AI-drivet Juridiskt Stöd | Sverige"
+        title="AI juridik | MouayadAI"
         description={
-          'MouayadAI kombinerar svensk AI-teknologi med juridisk expertis för att ge detaljerad rådgivning och professionell dokumenthantering. Ställ juridiska frågor och få tillgång till avancerad rådgivning anpassad för både individer och företag.'
+          'Vi kombinerar svensk AI-teknologi med juridisk expertis för att ge detaljerad rådgivning och professionell dokumenthantering. Ställ juridiska frågor och få tillgång till avancerad rådgivning anpassad för både individer och företag.'
         }
         keywords={
-          'AI juridisk assistent, juridisk rådgivning AI, svensk AI juridik, professionell dokumenthantering, juridiska databaser, AI för rättsfrågor, kostnadseffektiv juridisk rådgivning, AI-driven juridisk hjälp, rättighetsförståelse AI, juridisk teknologi, automatiserad juridik'
+          'AI juridisk assistent, svensk AI juridik, professionell dokumenthantering, juridiska databaser, AI för rättsfrågor, kostnadseffektiv juridisk rådgivning, AI-driven juridisk hjälp, rättighetsförståelse, automatiserad juridik'
         }
       />
       <Navbar navDark={false} />
