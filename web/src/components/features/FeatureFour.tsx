@@ -10,8 +10,12 @@ const FeatureFour = () => {
             <div className="col-lg-12 col-md-12">
               <SectionTitle
                 subtitle="Utvecklat via Enormt"
-                title="MouayadAI  erbjuder följande "
-                description="Vår AI-baserade juridiktjänst är för närvarande i testfasen. Versionen som finns på Google Play är bara en försmak av hela tjänsten. Den fullständiga versionen kommer att ge bättre svar, vara mer optimerad, och inkludera fler juridiska kategorier och tjänster. Registrera dig för vår whitelist redan idag och få chansen att vara bland de första att använda Sveriges mest avancerade AI-verktyg när det lanseras i sin helhet. Missa inte tillfället att vara en del av och dra nytta av den nya generationens juridiska teknologi."
+                title="MouayadAI erbjuder följande "
+                description="Vårt juridiktjänst för närvarande är i sin
+                testfasen. Versionen som finns på Google Play är bara en försmak 
+                av hela tjänsten. Den fullständiga versionen kommer att ge bättre svar, 
+                vara mer optimerad, och inkludera fler juridiska kategorier och tjänster. 
+                Rgistrera dig för vår whitelist redan idag och få chansen att vara bland de första som får använda Sveriges mest avancerade AI-verktyg inom Juridik."
                 centerAlign={true}
               />
             </div>
@@ -55,12 +59,10 @@ const FeatureFour = () => {
                   </div>
                   <h3 className="h5">Rättsliga frågor</h3>
                   <p className="mb-0">
-                    MouayadAI – den revolutionerande juridiska rådgivaren är
-                    designad för att hantera och förenkla komplexa rättsliga
-                    frågor. Vårt system erbjuder snabba och exakta svar,
-                    optimerade för både privatpersoner och företag som söker
-                    kostnadseffektiva juridiska lösningar. Med MouayadAI blir
-                    juridisk rådgivning tillgänglig för alla, överallt.
+                    Revolutionerande sök motor som är designad för att hantera
+                    och förenkla komplexa rättsliga frågor. Vårt system erbjuder
+                    snabba och exakta svar, optimerade för både privatpersoner
+                    och företag.
                   </p>
                 </div>
               </div>
@@ -78,15 +80,12 @@ const FeatureFour = () => {
                   </div>
                   <h3 className="h5">Juridisk Dokumenthantering</h3>
                   <p className="mb-0">
-                    Med MouayadAI:s avancerade teknologi för dokumenthantering
-                    kan du inte bara skapa och analysera juridiska dokument – du
-                    får också ett verktyg som är specialanpassat för juridikens
-                    unika krav. Vi siktar på att du ska känna dig helt trygg med
-                    den noggranna sammanfattningen du får, och vi strävar efter
-                    att ge dig full insyn i hur processen fungerar. Upptäck hur
-                    vår banbrytande teknologi använder de senaste innovationerna
-                    för att garantera den mest pålitliga och exakta
-                    dokumentanalysen som är möjlig.
+                    Avancerad teknologi för dokumenthantering där du kan skapa
+                    och analysera juridiska dokument. Du får också ett verktyg
+                    som är specialanpassat för juridikens unika krav. Vi siktar
+                    på att du ska känna dig helt trygg med den noggranna
+                    sammanfattningen du får, och vi strävar efter att ge dig
+                    full insyn i hur processen fungerar.
                   </p>
                 </div>
               </div>

@@ -12,8 +12,8 @@ const HeroFour = () => {
             <div className="col-lg-6 col-md-10">
               <div className="hero-content-wrap mt-5 pt-5 mt-lg-0 mt-xl-0">
                 <HeroTitle
-                  title="Mouayad AI din juridisk assistent"
-                  desc='AI-drivet juridiskt verktyg som syftar till att revolutionera den juridiska branschen genom att automatisera en rad olika funktioner inom juridik med hjälp av avancerad AI "Artificiell intelligent".'
+                  title="MouayadAI din juridisk assistent"
+                  desc="AI-drivet juridiskt verktyg som syftar till att revolutionera den juridiska branschen genom att automatisera en rad olika funktioner inom juridik med hjälp av avancerad AI (Artificiell intelligent)."
                   subtitle=""
                 />
 

@@ -6,7 +6,11 @@ interface PageMetaProps {
   keywords: string;
 }
 
-const PageMeta: React.FC<PageMetaProps> = ({ title, description, keywords }) => {
+const PageMeta: React.FC<PageMetaProps> = ({
+  title,
+  description,
+  keywords,
+}) => {
   return (
     <Head>
       <title>{title}</title>

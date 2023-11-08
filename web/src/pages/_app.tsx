@@ -1,19 +1,14 @@
-import "../../public/assets/css/main.css"
-import "../../public/assets/css/component.css"
-import "../../public/assets/css/custom.css"
-import "../../public/assets/css/HomeNine.css"
-import "../../public/assets/css/mainEnormt.css"
-
-
-
-
+import '../../public/assets/css/main.css';
+import '../../public/assets/css/component.css';
+import '../../public/assets/css/custom.css';
+import '../../public/assets/css/HomeNine.css';
+import '../../public/assets/css/mainEnormt.css';
 
 import 'aos/dist/aos.css'; // You can also use <link> in your document's <head> section
 import AOS from 'aos';
 
 import type { AppProps } from 'next/app';
-import React from "react"
-
+import React from 'react';
 
 function MyApp({ Component, pageProps }: AppProps) {
   React.useEffect(() => {
@@ -26,8 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       mirror: false, // whether elements should animate out while scrolling past them
     });
   }, []);
-    return <Component {...pageProps} />;
-  }
-
+  return <Component {...pageProps} />;
+}
 
 export default MyApp;
